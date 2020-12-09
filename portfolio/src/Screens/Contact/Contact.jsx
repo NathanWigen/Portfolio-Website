@@ -3,9 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div>
-      <form onSubmit={(e) =>{
-        e.preventDefault()
-      }}>
+      <form name="contact" method="POST" data-netlify="true">
         <div>
           <h3>Contact Me</h3>
           <label>Name 
@@ -30,9 +28,7 @@ export default function Contact() {
             />
           </label>
         </div>
-        <button>
-          Send Message
-        </button>
+        <button type="submit">Send Message</button>
       </form>
     </div>
   )
