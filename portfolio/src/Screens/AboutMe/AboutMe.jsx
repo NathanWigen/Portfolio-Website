@@ -6,7 +6,7 @@ export default function AboutMe() {
       <div>Hi I'm,</div>
       <div>Nathan Wigen</div>
       <div>I am a Front End Developer based in Washington State who enjoys the fast pace of working as a developer.</div>
-      <button>RESUME</button>
+      <a href="https://docs.google.com/document/d/1DHUdDC9PkadoEnucI9vYpsjsEyfU7qZNSem3X4aRkBE/edit?usp=sharing"><button>RESUME</button></a>
     </div>
   )
 }
