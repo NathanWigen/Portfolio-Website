@@ -1,12 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Header/Header';
+import Layout from './Layout/Layout';
+import { Switch, Route} from 'react-router-dom';
+import AboutMe from './Screens/AboutMe';
+import Projects from './Screens/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      
+      <Layout />
+      <Switch>
+
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        
+        {/* Keep as the last Route  */}
+        <Route path="/">
+          <AboutMe />
+        </Route>
+
+
+      </Switch>
     </div>
   );
 }
