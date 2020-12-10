@@ -17,11 +17,13 @@
   margin: 0px 19px 0px 22px;
   text-transform: uppercase;
   padding-top: 20px;
+  color: aliceblue;
 }
 
 
 .about-name{
   font-family: 'Orbitron', sans-serif;
+  color: aliceblue;
 }
 
 .about-brand{
@@ -33,6 +35,11 @@
   display: block;
   margin: 0px 19px 0px 22px;
   text-transform: uppercase;
+  color: aliceblue;
+}
+
+.code{
+  color: aliceblue;
 }
 
 .resume-link{

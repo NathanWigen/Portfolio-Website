@@ -13,7 +13,7 @@ export default function AboutMe() {
       <div className="about-brand">
         <p>I am a Front End Developer based in Washington State who enjoys the fast pace of working as a developer. Seeking and entry level position to utilize my computer, and service skills. I am self-motivated, quick to learn and a hard-working individual who is energetic and committed to an excellent customer service experience. I have been proven to be flexible, prompt, resourceful, organized and detail-oriented in the workplace. </p>
       </div>  
-      <div>
+      <div className="code">
         <h4>Programming Languages / Frameworks</h4>
         <div>
           <h4>HTML</h4>

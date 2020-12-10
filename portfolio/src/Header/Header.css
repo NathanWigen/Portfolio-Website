@@ -11,26 +11,30 @@
 .home-link{
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
+  color: aliceblue;
 }
 
 .home-link:hover{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid aliceblue;
+  color: aliceblue;
 }
 
 .project-link{
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
+  color: aliceblue;
 }
 
 .project-link:hover{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid aliceblue;
 }
 
 .contact-link{
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
+  color: aliceblue;
 }
 
 .contact-link:hover{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid aliceblue;
 }

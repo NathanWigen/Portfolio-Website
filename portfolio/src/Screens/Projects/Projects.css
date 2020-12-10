@@ -7,10 +7,11 @@
   text-align: center;
   display: block;
   margin: 0px 19px 20px 22px;
+  color: aliceblue;
 }
 
 .website-preview{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
   margin: 0px 250px 25px 250px;
 }
 
@@ -19,12 +20,17 @@
   text-decoration: none;
   border: 3px solid black;
   box-shadow: 3px 3px black;
+  color: aliceblue;
 }
 
 .github-link{
   width: 35px;
   height: 35px;
   margin-top: 30px;
+}
+
+.website-description{
+  color: aliceblue;
 }
 
 .website-image{

@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://hackernoon.com/images/f2px36fy.gif);
+  background-size: 1400px;
 }
 
 code {

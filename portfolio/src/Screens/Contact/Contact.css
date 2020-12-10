@@ -2,6 +2,7 @@
 
 .contact-title{
   font-family: 'Orbitron', sans-serif;
+  color: aliceblue;
 }
 
 .contact-form{
@@ -10,18 +11,25 @@
 }
 
 .labels-div{
-  margin-bottom: 30px;
+  /* margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px; */
+  margin: 0px 250px 60px 250px;
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
 }
 
 .label-title{
   font-family: 'Orbitron', sans-serif;
+  padding-bottom: 25px;
   padding-right: 10px;
+  color: aliceblue;
 }
 
 .message-title{
   font-family: 'Orbitron', sans-serif;
   padding-bottom: 45px;
   padding-right: 10px;
+  color: aliceblue;
 }
 
 .input{
