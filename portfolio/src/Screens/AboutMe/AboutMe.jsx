@@ -41,7 +41,8 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="resume-link">
-      <a href="https://docs.google.com/document/d/1DHUdDC9PkadoEnucI9vYpsjsEyfU7qZNSem3X4aRkBE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="resume-button"><button className="about-button">RESUME</button></a>
+        <a href="https://docs.google.com/document/d/1DHUdDC9PkadoEnucI9vYpsjsEyfU7qZNSem3X4aRkBE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="resume-button"><button className="about-button">RESUME</button></a>
+        <a href="https://www.linkedin.com/in/nathan-wigen-6337121b0/" target="_blank" rel="noopener noreferrer"><button className="linkedin-button">View Linkedin Profile</button></a>
       </div>
     </div>
   )
