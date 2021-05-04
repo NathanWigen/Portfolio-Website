@@ -3,6 +3,8 @@
 .contact-title{
   font-family: 'Orbitron', sans-serif;
   color: aliceblue;
+  width: 250px;
+  margin-left: 825px;
 }
 
 .contact-form{
@@ -11,20 +13,21 @@
 }
 
 .labels-div{
-  margin: 0px 250px 60px 250px;
+  margin: 0px 250px 60px 680px;
   box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+  width: 550px;
 }
 
 .label-title{
   font-family: 'Orbitron', sans-serif;
-  padding-bottom: 25px;
+  margin-bottom: 15px;
   padding-right: 10px;
   color: aliceblue;
 }
 
 .message-title{
   font-family: 'Orbitron', sans-serif;
-  padding-bottom: 45px;
+  margin-bottom: 15px;
   padding-right: 10px;
   color: aliceblue;
 }
@@ -32,7 +35,8 @@
 .input{
   border: none;
   border-bottom: 3px solid black;
-  width: 820px;
+  width: 520px;
+  margin-bottom: 15px;
 }
 
 .text-area{
@@ -41,6 +45,8 @@
   overflow: auto;
   outline: none;
   border-bottom: 3px solid black;
+  width: 520px;
+  margin-bottom: 15px;
 }
 
 .send-button{

@@ -13,7 +13,7 @@ export default function Contact() {
             <input type="hidden" name="form-name" value="contact"/>
             <div className="labels-div">
               <div className="label-title">
-                <label>Name</label>
+                <label>Your Name</label>
               </div>
                 <input
                   required
@@ -25,7 +25,7 @@ export default function Contact() {
             </div>
             <div className="labels-div">
               <div className="label-title">
-                <label>Email</label>
+                <label>Your Email</label>
               </div>
                 <input
                   required
@@ -37,7 +37,7 @@ export default function Contact() {
             </div>
             <div className="labels-div">
               <div className="message-title">
-                <label>Message</label>
+                <label>Your Message</label>
               </div>
                 <textarea
                   required

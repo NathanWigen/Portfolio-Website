@@ -6,13 +6,13 @@ export default function Header(props) {
   return (
     <div className="page-links">
       <div>
-        <Link to="/" className="home-link">NATHAN</Link>
+        <Link to="/" className="home-link">About Me</Link>
       </div>
       <div>
-        <Link to="/projects" className="project-link">PROJECTS</Link>
+        <Link to="/projects" className="project-link">Projects</Link>
       </div>
       <div>
-        <Link to="/contact" className="contact-link">CONTACT</Link>
+        <Link to="/contact" className="contact-link">Contact</Link>
       </div>
     </div>
   )
