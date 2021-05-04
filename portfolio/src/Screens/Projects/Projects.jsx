@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="projects">
       <div>
-        <h2 className="projects-header">Projects</h2>
+        <h2 className="projects-header">My Websites</h2>
       </div>
       <div className="website-preview">
         <a href="https://nathanwigen.github.io/Weather-Today/" target="_blank" rel="noopener noreferrer" className="website-link">Weather-Today</a>
