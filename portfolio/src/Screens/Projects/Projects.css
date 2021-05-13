@@ -77,3 +77,86 @@
   height: 250px;
   margin-bottom: 20px;
 }
+
+/* mobile breakpoint */
+
+@media screen 
+  and (max-width: 576px) and (min-width: 576) {
+    .projects{
+      overflow-y: scroll;
+      width: 100vw;
+      height: 100vh;
+    }
+    
+    .projects-header{
+      font-family: 'Orbitron', sans-serif;
+      width: 180px;
+      font-weight: bold;
+      margin: 0px 0px 20px 870px;
+      color: aliceblue;
+    }
+    
+    .website-preview{
+      box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+      margin: 50px 250px 0px 450px;
+      width: 1000px;
+    }
+    
+    .website-preview-last{
+      box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+      margin: 50px 250px 50px 450px;
+      padding-bottom: 10px;
+      width: 1000px;
+    }
+    
+    .website-link{
+      margin-right: 15px;
+      text-decoration: none;
+      border-left: 1px solid aliceblue;
+      border-top: 1px solid aliceblue;
+      box-shadow: 3px 3px rgba(255, 255, 255, 0.397);
+      color: aliceblue;
+    }
+    
+    .github-link{
+      width: 35px;
+      height: 35px;
+      margin-top: 30px;
+    }
+    
+    .website-description-weather-today{
+      color: aliceblue;
+      text-transform: uppercase;
+    }
+    
+    .website-description-review-the-game{
+      color: aliceblue;
+      text-transform: uppercase;
+      width: 650px;
+      margin-left: 170px;
+    }
+    
+    .website-description-root{
+      color: aliceblue;
+      text-transform: uppercase;
+      width: 750px;
+      margin-left: 125px;
+    }
+    
+    .website-description-game-thoughts{
+      color: aliceblue;
+      text-transform: uppercase;
+      width: 850px;
+      margin-left: 50px;
+    }
+    
+    .tech-stack{
+      color: aliceblue;
+    }
+    
+    .website-image{
+      width: 500px;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+  }

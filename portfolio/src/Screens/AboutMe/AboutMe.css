@@ -12,7 +12,6 @@
   font-weight: bold;
   display: block;
   margin: 180px 65px 0px 85px;
-  text-transform: uppercase;
   color: aliceblue;
 }
 
@@ -26,12 +25,12 @@
   font-family: 'Orbitron', sans-serif;
   justify-content: center;
   font-size: 15px;
+  line-height: 25px;
   font-weight: bold;
   text-align: center;
-  margin: 0px 19px 0px 690px;
-  text-transform: uppercase;
+  margin: 0px 19px 0px 630px;
   color: aliceblue;
-  width: 550px;
+  width: 650px;
 }
 
 .programming-frameworks{
@@ -92,3 +91,201 @@
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
 }
+
+/* Tablet break point */
+
+@media screen 
+  and (max-width: 768px) {
+    .about-me{
+      margin-left: 0px;
+    }
+    
+    .about-hi{
+      font-family: 'Orbitron', sans-serif;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      margin: 180px 65px 0px 85px;
+      text-transform: uppercase;
+      color: aliceblue;
+    }
+    
+    
+    .about-name{
+      font-family: 'Orbitron', sans-serif;
+      color: aliceblue;
+    }
+    
+    .about-brand{
+      font-family: 'Orbitron', sans-serif;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      margin: 0px 19px 0px 60px;
+      text-transform: uppercase;
+      color: aliceblue;
+      width: 550px;
+    }
+    
+    .programming-frameworks{
+      color: aliceblue;
+    }
+    
+    .code{
+      color: aliceblue;
+      width: 550px;
+      margin: 0px 19px 0px 60px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .code-html{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-JS{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-react{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-css{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-ruby{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-express{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .resume-link{
+      width: 550px;
+      margin: 10px 19px 10px 60px;
+    }
+    
+    .about-button{
+      background-color: white;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+    }
+    
+    .linkedin-button{
+      background-color: white;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+    }
+  }
+
+/* mobile breakpoint */
+
+@media screen 
+  and (max-width: 576px) {
+    .about-me{
+      margin-left: 0px;
+    }
+    
+    .about-hi{
+      font-family: 'Orbitron', sans-serif;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      margin: 100px 0px 0px 190px;
+      color: aliceblue;
+      width: 250px;
+    }
+    
+    
+    .about-name{
+      font-family: 'Orbitron', sans-serif;
+      color: aliceblue;
+    }
+    
+    .about-brand{
+      font-family: 'Orbitron', sans-serif;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      margin: 0px 19px 0px 90px;
+      color: aliceblue;
+      width: 450px;
+    }
+    
+    .programming-frameworks{
+      color: aliceblue;
+      margin-left: 140px;
+      width: 350px;
+    }
+    
+    .code{
+      color: aliceblue;
+      width: 550px;
+      margin: 0px 0px 0px 5px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .code-html{
+      margin-left: 20px;
+      margin-right: 0px;
+    }
+    
+    .code-JS{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-react{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-css{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-ruby{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .code-express{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .resume-link{
+      width: 550px;
+      margin: 50px 19px 10px 30px;
+    }
+    
+    .about-button{
+      background-color: rgb(44, 44, 44);
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      color: aliceblue;
+      margin-right: 15px;
+    }
+    
+    .linkedin-button{
+      background-color: rgb(44, 44, 44);
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      color: aliceblue;
+    }
+  }

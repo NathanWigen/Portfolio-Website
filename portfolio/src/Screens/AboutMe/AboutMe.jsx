@@ -5,9 +5,9 @@ export default function AboutMe() {
   return (
     <div className="about-me">
       <div className="about-hi">
-        <p>Hi I'm</p>
+        <p>Hi I'm,</p>
         <p>
-          NATHAN WIGEN
+          Nathan Wigen
         </p>
       </div>
       <div className="about-brand">
@@ -17,8 +17,8 @@ export default function AboutMe() {
         <h4>Programming Languages / Frameworks</h4>
       </div>
       <div className="code">
-        <div>
-          <h4 className="code-html">HTML</h4>
+        <div className="code-html">
+          <h4 >HTML</h4>
           <img src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-512.png" alt="html-logo" width="50" height="50"/>
         </div>
         <div>
