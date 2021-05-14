@@ -81,9 +81,9 @@
 /* mobile breakpoint */
 
 @media screen 
-  and (max-width: 576px) and (min-width: 576) {
+  and (max-width: 576px) {
     .projects{
-      overflow-y: scroll;
+      overflow-y: show;
       width: 100vw;
       height: 100vh;
     }
@@ -92,21 +92,21 @@
       font-family: 'Orbitron', sans-serif;
       width: 180px;
       font-weight: bold;
-      margin: 0px 0px 20px 870px;
+      margin: 0px 0px 20px 90px;
       color: aliceblue;
     }
     
     .website-preview{
       box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
-      margin: 50px 250px 0px 450px;
-      width: 1000px;
+      margin: 50px 0px 0px 17px;
+      width: 320px;
     }
     
     .website-preview-last{
       box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
-      margin: 50px 250px 50px 450px;
+      margin: 50px 250px 50px 20px;
       padding-bottom: 10px;
-      width: 1000px;
+      width: 320px;
     }
     
     .website-link{
@@ -127,26 +127,32 @@
     .website-description-weather-today{
       color: aliceblue;
       text-transform: uppercase;
+      font-size: 15px;
+      width: 200px;
+      margin-left: 50px;
     }
     
     .website-description-review-the-game{
       color: aliceblue;
       text-transform: uppercase;
-      width: 650px;
-      margin-left: 170px;
+      font-size: 15px;
+      width: 200px;
+      margin-left: 50px;
     }
     
     .website-description-root{
       color: aliceblue;
       text-transform: uppercase;
-      width: 750px;
-      margin-left: 125px;
+      font-size: 15px;
+      width: 300px;
+      margin-left: 10px;
     }
     
     .website-description-game-thoughts{
       color: aliceblue;
       text-transform: uppercase;
-      width: 850px;
+      font-size: 15px;
+      width: 200px;
       margin-left: 50px;
     }
     
@@ -155,7 +161,7 @@
     }
     
     .website-image{
-      width: 500px;
+      width: 250px;
       height: 250px;
       margin-bottom: 20px;
     }
