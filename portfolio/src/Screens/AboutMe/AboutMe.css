@@ -40,7 +40,7 @@
 .code{
   color: aliceblue;
   width: 550px;
-  margin: 0px 19px 0px 690px;
+  margin: 0px 19px 0px 630px;
   display: flex;
   flex-direction: row;
 }
@@ -76,20 +76,32 @@
 }
 
 .resume-link{
-  width: 550px;
-  margin: 10px 19px 10px 650px;
+  /* width: 550px; */
+  margin: 10px 19px 10px 60px;
 }
 
 .about-button{
-  background-color: white;
+  background-color: rgb(44, 44, 44);
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
+  color: aliceblue;
+  margin-right: 15px;
+  border-left: solid rgb(133, 133, 133);
+  border-top: solid rgb(133, 133, 133);
+  border-right: solid rgb(133, 133, 133);
+  border-bottom: solid rgb(133, 133, 133);
 }
 
 .linkedin-button{
-  background-color: white;
+  background-color: rgb(44, 44, 44);
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
+  color: aliceblue;
+  margin-right: 15px;
+  border-left: solid rgb(133, 133, 133);
+  border-top: solid rgb(133, 133, 133);
+  border-right: solid rgb(133, 133, 133);
+  border-bottom: solid rgb(133, 133, 133);
 }
 
 /* Tablet break point */
@@ -106,8 +118,7 @@
       font-size: 15px;
       font-weight: bold;
       display: block;
-      margin: 180px 65px 0px 85px;
-      text-transform: uppercase;
+      margin: 80px 65px 0px 55px;
       color: aliceblue;
     }
     
@@ -123,8 +134,7 @@
       font-size: 15px;
       font-weight: bold;
       text-align: center;
-      margin: 0px 19px 0px 60px;
-      text-transform: uppercase;
+      margin: 0px 19px 0px 100px;
       color: aliceblue;
       width: 550px;
     }
@@ -173,19 +183,29 @@
     
     .resume-link{
       width: 550px;
-      margin: 10px 19px 10px 60px;
+      margin: 10px 19px 10px 120px;
     }
     
     .about-button{
-      background-color: white;
+      background-color: rgb(44, 44, 44);
       font-family: 'Orbitron', sans-serif;
       font-weight: bold;
+      color: aliceblue;
+      border-left: solid rgb(133, 133, 133);
+      border-top: solid rgb(133, 133, 133);
+      border-right: solid rgb(133, 133, 133);
+      border-bottom: solid rgb(133, 133, 133);
     }
     
     .linkedin-button{
-      background-color: white;
+      background-color: rgb(44, 44, 44);
       font-family: 'Orbitron', sans-serif;
       font-weight: bold;
+      color: aliceblue;
+      border-left: solid rgb(133, 133, 133);
+      border-top: solid rgb(133, 133, 133);
+      border-right: solid rgb(133, 133, 133);
+      border-bottom: solid rgb(133, 133, 133);
     }
   }
 
@@ -203,7 +223,7 @@
       font-size: 15px;
       font-weight: bold;
       display: block;
-      margin: 100px 0px 0px 190px;
+      margin: 100px 0px 0px 160px;
       color: aliceblue;
       width: 250px;
     }
@@ -220,21 +240,21 @@
       font-size: 15px;
       font-weight: bold;
       text-align: center;
-      margin: 0px 19px 0px 90px;
+      margin: 0px 19px 0px 105px;
       color: aliceblue;
-      width: 450px;
+      width: 350px;
     }
     
     .programming-frameworks{
       color: aliceblue;
-      margin-left: 140px;
+      margin-left: 100px;
       width: 350px;
     }
     
     .code{
       color: aliceblue;
       width: 550px;
-      margin: 0px 0px 0px 5px;
+      margin: 0px 0px 0px 20px;
       display: flex;
       flex-direction: row;
     }
@@ -245,23 +265,23 @@
     }
     
     .code-JS{
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 10px;
+      margin-right: 0px;
     }
     
     .code-react{
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 10px;
+      margin-right: 0px;
     }
     
     .code-css{
       margin-left: 20px;
-      margin-right: 20px;
+      margin-right: 0px;
     }
     
     .code-ruby{
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 10px;
+      margin-right: 0px;
     }
     
     .code-express{
@@ -280,6 +300,10 @@
       font-weight: bold;
       color: aliceblue;
       margin-right: 15px;
+      border-left: solid rgb(133, 133, 133);
+      border-top: solid rgb(133, 133, 133);
+      border-right: solid rgb(133, 133, 133);
+      border-bottom: solid rgb(133, 133, 133);
     }
     
     .linkedin-button{
@@ -287,5 +311,9 @@
       font-family: 'Orbitron', sans-serif;
       font-weight: bold;
       color: aliceblue;
+      border-left: solid rgb(133, 133, 133);
+      border-top: solid rgb(133, 133, 133);
+      border-right: solid rgb(133, 133, 133);
+      border-bottom: solid rgb(133, 133, 133);
     }
   }

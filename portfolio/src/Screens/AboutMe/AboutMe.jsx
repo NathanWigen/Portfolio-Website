@@ -21,24 +21,24 @@ export default function AboutMe() {
           <h4 >HTML</h4>
           <img src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-512.png" alt="html-logo" width="50" height="50"/>
         </div>
-        <div>
-          <h4 className="code-JS">JavaScript</h4>
+        <div className="code-JS">
+          <h4>JavaScript</h4>
           <img src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png" alt="JavaScript-logo" width="50" height="50"/>
         </div>
-        <div>
-          <h4 className="code-react">React.js</h4>
-          <img src="https://miro.medium.com/max/3200/1*EVqCcmCPgpNKxU1wzcTHgw.png" alt="react.js-logo" width="100" height="50"/>
+        <div className="code-react">
+          <h4>React.js</h4>
+          <img src="http://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png" alt="react.js-logo" width="90" height="70"/>
         </div>
-        <div>
-          <h4 className="code-css">CSS</h4>
+        <div className="code-css">
+          <h4>CSS</h4>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css-logo" width="50" height="50"/>
         </div>
-        <div>
-          <h4 className="code-ruby">Ruby on Rails</h4>
+        <div className="code-ruby">
+          <h4>Ruby on Rails</h4>
           <img src="https://www.iglobsyn.com/wp-content/uploads/2019/09/Ruby-on-rails-development.png" alt="css-logo" width="50" height="50"/>
         </div>
-        <div>
-          <h4 className="code-express">Express / Node.js / MongoDB</h4>
+        <div className="code-express">
+          <h4>Express / Node.js / MongoDB</h4>
           <img src="https://miro.medium.com/max/600/1*NFTgwZ_TUmceZnSHCundBw.jpeg" alt="css-logo" width="100" height="70"/>
         </div>
       </div>
