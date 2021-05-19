@@ -20,6 +20,10 @@
   width: 1000px;
 }
 
+.website-links{
+  padding-top: 20px;
+}
+
 .website-preview-last{
   box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
   margin: 50px 250px 50px 450px;
@@ -32,38 +36,36 @@
   text-decoration: none;
   border-left: 1px solid aliceblue;
   border-top: 1px solid aliceblue;
-  box-shadow: 3px 3px rgba(255, 255, 255, 0.397);
+  box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
   color: aliceblue;
 }
 
 .github-link{
-  width: 35px;
-  height: 35px;
-  margin-top: 30px;
+  text-decoration: none;
+  border-left: 1px solid aliceblue;
+  border-top: 1px solid aliceblue;
+  box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
+  color: aliceblue;
 }
 
 .website-description-weather-today{
   color: aliceblue;
-  text-transform: uppercase;
 }
 
 .website-description-review-the-game{
   color: aliceblue;
-  text-transform: uppercase;
   width: 650px;
   margin-left: 170px;
 }
 
 .website-description-root{
   color: aliceblue;
-  text-transform: uppercase;
   width: 750px;
   margin-left: 125px;
 }
 
 .website-description-game-thoughts{
   color: aliceblue;
-  text-transform: uppercase;
   width: 850px;
   margin-left: 50px;
 }
@@ -98,30 +100,48 @@
     
     .website-preview{
       box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
-      margin: 30px 0px 0px 40px;
+      margin: 30px 0px 0px 23px;
       width: 330px;
+    }
+
+    .website-links{
+      padding-top: 10px;
     }
     
     .website-preview-last{
       box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
-      margin: 50px 250px 50px 40px;
+      margin: 30px 250px 50px 23px;
       padding-bottom: 10px;
       width: 330px;
     }
     
     .website-link{
-      margin-right: 15px;
-      text-decoration: none;
-      border-left: 1px solid aliceblue;
-      border-top: 1px solid aliceblue;
-      box-shadow: 3px 3px rgba(255, 255, 255, 0.397);
+      margin-right: 5px;
+      background-color: rgb(44, 44, 44);
+      font-family: 'Orbitron', sans-serif;
       color: aliceblue;
+      font-size: 12px;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-bottom: 2px;
+      border-left: solid rgb(133, 133, 133);
+      border-top: solid rgb(133, 133, 133);
+      border-right: solid rgb(133, 133, 133);
+      border-bottom: solid rgb(133, 133, 133);
     }
     
     .github-link{
-      width: 35px;
-      height: 35px;
-      margin-top: 30px;
+      background-color: rgb(44, 44, 44);
+      font-family: 'Orbitron', sans-serif;
+      color: aliceblue;
+      font-size: 12px;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-bottom: 2px;
+      border-left: solid rgb(133, 133, 133);
+      border-top: solid rgb(133, 133, 133);
+      border-right: solid rgb(133, 133, 133);
+      border-bottom: solid rgb(133, 133, 133);
     }
     
     .website-description-weather-today{
@@ -151,14 +171,14 @@
       width: 300px;
       margin-left: 15px;
     }
-    
+
     .tech-stack{
       color: aliceblue;
     }
     
     .website-image{
-      width: 300px;
-      height: 300px;
+      width: 290px;
+      height: 250px;
       margin-bottom: 10px;
     }
   }
