@@ -38,6 +38,8 @@
   border-top: 1px solid aliceblue;
   box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
   color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .github-link{
@@ -46,6 +48,8 @@
   border-top: 1px solid aliceblue;
   box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
   color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .website-description-weather-today{
@@ -79,6 +83,96 @@
   height: 250px;
   margin-bottom: 20px;
 }
+
+/* Tablet break point */
+
+@media screen 
+  and (max-width: 768px) {
+    
+    .projects{
+      overflow-y: scroll;
+      width: 100vw;
+      height: 100vh;
+    }
+    
+    .projects-header{
+      font-family: 'Orbitron', sans-serif;
+      width: 180px;
+      font-weight: bold;
+      margin: 0px 0px 20px 300px;
+      color: aliceblue;
+    }
+    
+    .website-preview{
+      box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+      margin: 50px 250px 0px 40px;
+      width: 700px;
+    }
+    
+    .website-links{
+      padding-top: 20px;
+    }
+    
+    .website-preview-last{
+      box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+      margin: 50px 250px 50px 40px;
+      padding-bottom: 10px;
+      width: 700px;
+    }
+    
+    .website-link{
+      margin-right: 15px;
+      text-decoration: none;
+      border-left: 1px solid aliceblue;
+      border-top: 1px solid aliceblue;
+      box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
+      color: aliceblue;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    
+    .github-link{
+      text-decoration: none;
+      border-left: 1px solid aliceblue;
+      border-top: 1px solid aliceblue;
+      box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
+      color: aliceblue;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    
+    .website-description-weather-today{
+      color: aliceblue;
+    }
+    
+    .website-description-review-the-game{
+      color: aliceblue;
+      width: 550px;
+      margin-left: 70px;
+    }
+    
+    .website-description-root{
+      color: aliceblue;
+      width: 550px;
+      margin-left: 70px;
+    }
+    
+    .website-description-game-thoughts{
+      color: aliceblue;
+      width: 550px;
+      margin-left: 70px;
+    }
+    
+    .tech-stack{
+      color: aliceblue;
+    }
+    
+    .website-image{
+      width: 500px;
+      height: 250px;
+      margin-bottom: 20px;
+    }
+  }
 
 /* mobile breakpoint */
 

@@ -38,3 +38,58 @@
 .contact-link:hover{
   border-bottom: 1px solid aliceblue;
 }
+
+/* Tablet break point */
+
+@media screen 
+  and (max-width: 768px) {}
+
+/* mobile breakpoint */
+
+@media screen 
+  and (max-width: 576px) {
+    .page-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 60px;
+    }
+    
+    .home-link{
+      text-decoration: none;
+      font-family: 'Press Start 2P', cursive;
+      color: aliceblue;
+      font-size: 10px;
+      margin-right: 10px;
+    }
+    
+    .home-link:hover{
+      border-bottom: 1px solid aliceblue;
+      color: aliceblue;
+    }
+    
+    .project-link{
+      text-decoration: none;
+      font-family: 'Press Start 2P', cursive;
+      color: aliceblue;
+      font-size: 10px;
+      margin-right: 10px;
+    }
+    
+    .project-link:hover{
+      border-bottom: 1px solid aliceblue;
+    }
+    
+    .contact-link{
+      text-decoration: none;
+      font-family: 'Press Start 2P', cursive;
+      color: aliceblue;
+      font-size: 10px;
+    }
+    
+    .contact-link:hover{
+      border-bottom: 1px solid aliceblue;
+    }
+  }
