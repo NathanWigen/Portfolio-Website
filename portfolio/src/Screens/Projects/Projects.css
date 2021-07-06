@@ -10,7 +10,7 @@
   font-family: 'Orbitron', sans-serif;
   width: 180px;
   font-weight: bold;
-  margin: 0px 0px 20px 870px;
+  margin: 0px 0px 20px 877px;
   color: aliceblue;
 }
 
@@ -33,49 +33,64 @@
 
 .website-link{
   margin-right: 15px;
-  text-decoration: none;
-  border-left: 1px solid aliceblue;
-  border-top: 1px solid aliceblue;
-  box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
-  color: aliceblue;
+  background-color: rgb(44, 44, 44);
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  color: aliceblue;
+  border-left: solid rgb(133, 133, 133);
+  border-top: solid rgb(133, 133, 133);
+  border-right: solid rgb(133, 133, 133);
+  border-bottom: solid rgb(133, 133, 133);
+  text-decoration: none;
 }
 
 .github-link{
-  text-decoration: none;
-  border-left: 1px solid aliceblue;
-  border-top: 1px solid aliceblue;
-  box-shadow: 0px 0px rgba(255, 255, 255, 0.397);
-  color: aliceblue;
+  background-color: rgb(44, 44, 44);
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  color: aliceblue;
+  border-left: solid rgb(133, 133, 133);
+  border-top: solid rgb(133, 133, 133);
+  border-right: solid rgb(133, 133, 133);
+  border-bottom: solid rgb(133, 133, 133);
+  text-decoration: none;
 }
 
 .website-description-weather-today{
   color: aliceblue;
+  font-family: Verdana, sans-serif;
 }
 
 .website-description-review-the-game{
   color: aliceblue;
   width: 650px;
   margin-left: 170px;
+  font-family: Verdana, sans-serif;
 }
 
 .website-description-root{
   color: aliceblue;
   width: 750px;
   margin-left: 125px;
+  font-family: Verdana, sans-serif;
 }
 
 .website-description-game-thoughts{
   color: aliceblue;
   width: 850px;
   margin-left: 50px;
+  font-family: Verdana, sans-serif;
 }
 
 .tech-stack{
   color: aliceblue;
+  font-family: Verdana, sans-serif;
 }
 
 .website-image{
@@ -143,28 +158,33 @@
     
     .website-description-weather-today{
       color: aliceblue;
+      font-family: Verdana, sans-serif;
     }
     
     .website-description-review-the-game{
       color: aliceblue;
       width: 550px;
       margin-left: 70px;
+      font-family: Verdana, sans-serif;
     }
     
     .website-description-root{
       color: aliceblue;
       width: 550px;
       margin-left: 70px;
+      font-family: Verdana, sans-serif;
     }
     
     .website-description-game-thoughts{
       color: aliceblue;
       width: 550px;
       margin-left: 70px;
+      font-family: Verdana, sans-serif;
     }
     
     .tech-stack{
       color: aliceblue;
+      font-family: Verdana, sans-serif;
     }
     
     .website-image{
@@ -243,6 +263,7 @@
       font-size: 15px;
       width: 300px;
       margin-left: 15px;
+      font-family: Verdana, sans-serif;
     }
     
     .website-description-review-the-game{
@@ -250,6 +271,7 @@
       font-size: 15px;
       width: 300px;
       margin-left: 15px;
+      font-family: Verdana, sans-serif;
     }
     
     .website-description-root{
@@ -257,6 +279,7 @@
       font-size: 15px;
       width: 300px;
       margin-left: 15px;
+      font-family: Verdana, sans-serif;
     }
     
     .website-description-game-thoughts{
@@ -264,10 +287,12 @@
       font-size: 15px;
       width: 300px;
       margin-left: 15px;
+      font-family: Verdana, sans-serif;
     }
 
     .tech-stack{
       color: aliceblue;
+      font-family: Verdana, sans-serif;
     }
     
     .website-image{

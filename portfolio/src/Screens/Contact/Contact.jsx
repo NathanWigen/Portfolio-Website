@@ -19,7 +19,7 @@ export default function Contact() {
                   required
                   type="text"
                   name="name"
-                  placeholder="Your name"
+                  placeholder=" Your Name"
                   className="input"
                 />
             </div>
@@ -31,7 +31,7 @@ export default function Contact() {
                   required
                   type="text"
                   name="email"
-                  placeholder="Email"
+                  placeholder=" Email"
                   className="input"
                 />
             </div>
@@ -43,7 +43,7 @@ export default function Contact() {
                   required
                   type="text"
                   name="message"
-                  placeholder="Message..."
+                  placeholder=" Message..."
                   cols="100"
                   rows="5"
                   className="text-area"

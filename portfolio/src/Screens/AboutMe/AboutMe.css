@@ -6,7 +6,7 @@
 }
 
 .about-hi{
-  font-family: 'Orbitron', sans-serif;
+  font-family: Verdana, sans-serif;
   justify-content: center;
   font-size: 15px;
   font-weight: bold;
@@ -17,12 +17,12 @@
 
 
 .about-name{
-  font-family: 'Orbitron', sans-serif;
+  font-family: Verdana , sans-serif;
   color: aliceblue;
 }
 
 .about-brand{
-  font-family: 'Orbitron', sans-serif;
+  font-family: Verdana , sans-serif;
   justify-content: center;
   font-size: 15px;
   line-height: 25px;
@@ -76,7 +76,6 @@
 }
 
 .resume-link{
-  /* width: 550px; */
   margin: 10px 19px 10px 60px;
 }
 
@@ -113,7 +112,7 @@
     }
     
     .about-hi{
-      font-family: 'Orbitron', sans-serif;
+      font-family: Verdana , sans-serif;
       justify-content: center;
       font-size: 15px;
       font-weight: bold;
@@ -124,12 +123,12 @@
     
     
     .about-name{
-      font-family: 'Orbitron', sans-serif;
+      font-family: Verdana , sans-serif;
       color: aliceblue;
     }
     
     .about-brand{
-      font-family: 'Orbitron', sans-serif;
+      font-family: Verdana , sans-serif;
       justify-content: center;
       font-size: 15px;
       font-weight: bold;
@@ -218,7 +217,7 @@
     }
     
     .about-hi{
-      font-family: 'Orbitron', sans-serif;
+      font-family: Verdana , sans-serif;
       justify-content: center;
       font-size: 10px;
       font-weight: bold;
@@ -230,12 +229,12 @@
     
     
     .about-name{
-      font-family: 'Orbitron', sans-serif;
+      font-family: Verdana , sans-serif;
       color: aliceblue;
     }
     
     .about-brand{
-      font-family: 'Orbitron', sans-serif;
+      font-family: Verdana , sans-serif;
       justify-content: center;
       font-size: 10px;
       font-weight: bold;
